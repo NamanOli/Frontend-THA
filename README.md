@@ -1,1 +1,1 @@
-# Frontend-THA
+# THA
