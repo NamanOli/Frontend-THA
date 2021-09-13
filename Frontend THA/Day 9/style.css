@@ -1,0 +1,61 @@
+
+.po
+{
+  position: relative;
+  text-align: center;
+}
+img{
+  max-height:100%; max-width:100%;
+}
+/* Status of Seats */
+.status {
+  position: absolute;
+  bottom: 1090px;
+  left: 468px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.seats {
+  
+  margin: 30px 20px;
+  text-align: center;
+}
+
+
+.container {
+  position:relative;
+  bottom: 550px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+body {
+  border: 1px solid transparent;
+}
+.boxes {
+  padding: 5px;
+  border: 1px solid rgb(245, 45, 10);
+  height: 80vh;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: rgb(18, 247, 228);
+}
+
+.box {
+  background-color: rgb(7, 27, 211);
+  margin: 3px;
+}
+
+.box:hover {
+  background-color: rgb(38, 175, 152);
+  cursor: pointer;
+}
+
+.boxClicked {
+  background-color: rgb(49, 228, 17);
+}
